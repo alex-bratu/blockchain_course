@@ -22,4 +22,4 @@ AuthPort = 8552
 MaxPeers = 50
 StaticNodes = []
 TrustedNodes = []
-ListenAddr = ":30304"
+ListenAddr = "127.0.0.1:30304"
