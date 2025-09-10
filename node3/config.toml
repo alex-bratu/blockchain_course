@@ -8,7 +8,7 @@ GasCeil = 24437032
 GasPrice = 0
 
 [Node]
-DataDir = "/home/ubuntu/blockchain_course/node1"
+DataDir = "/home/ubuntu/blockchain_course/node3"
 InsecureUnlockAllowed = true
 IPCPath = "geth.ipc"
 HTTPHost = "IP"
