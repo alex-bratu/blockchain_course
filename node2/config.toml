@@ -1,0 +1,24 @@
+[Eth]
+NetworkId = 1337
+SyncMode = "full"
+
+[Eth.Miner]
+GasFloor = 0
+GasCeil = 24437032
+GasPrice = 0
+
+[Node]
+DataDir = "/home/ubuntu/blockchain_course/node2"
+InsecureUnlockAllowed = true
+IPCPath = "geth.ipc"
+HTTPHost = "IP"
+HTTPPort = 8546
+HTTPCors = ["*"]
+HTTPVirtualHosts = ["*"]
+HTTPModules = ["debug", "personal", "eth", "net", "web3", "txpool", "miner", "admin"]
+
+[Node.P2P]
+MaxPeers = 50
+StaticNodes = []
+TrustedNodes = []
+ListenAddr = ":30304"
