@@ -41,6 +41,7 @@ cd "$WORKDIR"
 wget -q --show-progress "$URL" -O geth.tar.gz
 tar -xvf geth.tar.gz
 
+
 # Find extracted directory
 EXTRACTED_DIR=$(tar -tzf geth.tar.gz | head -1 | cut -f1 -d"/")
 
