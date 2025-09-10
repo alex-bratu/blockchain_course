@@ -16,6 +16,7 @@ HTTPPort = 8545
 HTTPCors = ["*"]
 HTTPVirtualHosts = ["*"]
 HTTPModules = ["debug", "personal", "eth", "net", "web3", "txpool", "miner", "admin"]
+AuthPort = 8551
 
 [Node.P2P]
 MaxPeers = 50
